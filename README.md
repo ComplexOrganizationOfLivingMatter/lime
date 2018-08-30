@@ -5,8 +5,8 @@ Overview and use of LimeSeg
 - CTRL + T abre el  **ROI manager**
 - Seleccionar la herramienta de **elipse**, dibujar la semilla y pulsar T para añadir.
 - Plugins -> Limeseg -> Sphere Seg para segmentar.
-- **NO cerrar ninguna ventana**
-- **Hay que esperar a que 3D deje de moverse o pararlo automáticamente**
+- **NO cerrar ninguna ventana.**
+- **Hay que esperar a que 3D deje de moverse o pararlo automáticamente.**
 
 ## Main functions
 
@@ -34,7 +34,7 @@ Podemos añadir o eliminar seeds manteniendo las anteriores. Lo ideal es ir aña
 
 ### Exportar resultados
 
-LimeSeg nos permite guardar las células que hemos segmentado en formato ply, donde habrá una carpeta por cada célula. Hay que tener cuidado porque **se obreescribe lo anterior**
+LimeSeg nos permite guardar las células que hemos segmentado en formato ply, donde habrá una carpeta por cada célula. Hay que tener cuidado porque **se obreescribe lo anterior**.
 
 - LimeSeg → Show GUI
 - Write To : Seleccionar Carpeta    
@@ -60,4 +60,5 @@ Como LimeSeg va a exportar cada célula que segmentemos por separado, en caso de
 - Exportar los resultados y sustituirlos en el conjunto de células bien segmentadas que hemos obtenido en el primer paso.
 
 ### On Matlab 
+Documentation [here](https://es.mathworks.com/help/vision/ref/pcread.html).
 
