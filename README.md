@@ -13,7 +13,7 @@ Overview and use of LimeSeg
 ### Reutilizar seeds pero mantener la misma configuración
 Si las semillas están bien elegidas pero necesitamos modificar los parámetros de segmentación.
 
-- Plugins -> LimeSeg -> ClearAll
+- Plugins → LimeSeg → ClearAll
 
 Y procedemos a segmentar de nuevo
 
@@ -23,20 +23,20 @@ Y procedemos a segmentar de nuevo
 
 En este caso no guardamos las semillas.
 - Roi Manager -> Delete
--Plugins -> Limeseg -> Clear All
+-Plugins → Limeseg → Clear All
 
 ### Modificar seeds 🔭
 Podemos añadir o eliminar seeds manteniendo las anteriores. Lo ideal es ir añadiendo semillas poco a poco e ir probando qué configuración es la mejor.
 
-- LimeSeg -> Clear All
-- Roi Manager -> Add/Delete Seeds
-- LimeSeg -> Sphere Seg
+- LimeSeg → Clear All
+- Roi Manager → Add/Delete Seeds
+- LimeSeg → Sphere Seg
 
 ### Exportar resultados
 
-LimeSeg nos permite guardar las células que hemos segmentado en formato ply, donde habrá una carpeta por cada célula.
+LimeSeg nos permite guardar las células que hemos segmentado en formato ply, donde habrá una carpeta por cada célula. Hay que tener cuidado porque **se obreescribe lo anterior**
 
-- LimeSeg -> Show GUI
-- Write To : Seleccionar Carpeta    ** Se obreescribe lo anterior**
+- LimeSeg → Show GUI
+- Write To : Seleccionar Carpeta    
 - Save State To XMLPLY
 
