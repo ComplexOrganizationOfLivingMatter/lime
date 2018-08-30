@@ -3,8 +3,8 @@ Overview and use of LimeSeg
 ## Basic controlls
 
 - CTRL + T abre el  **ROI manager**
-- Seleccionar la herramienta de **elipse**, seleccionar la semilla y pulsar T para añadir
-- Plugins -> Limeseg -> Sphere Seg para segmentar
+- Seleccionar la herramienta de **elipse**, dibujar la semilla y pulsar T para añadir.
+- Plugins -> Limeseg -> Sphere Seg para segmentar.
 - **NO cerrar ninguna ventana**
 - **Hay que esperar a que 3D deje de moverse o pararlo automáticamente**
 
@@ -19,8 +19,26 @@ Y procedemos a segmentar de nuevo
 
 - Plugins -> LimeSeg -> Sphere Seg
 
-### Nueva segmentación
+### Nueva segmentación completa
+
+En este caso no guardamos las semillas.
+- Roi Manager -> Delete
+-Plugins -> Limeseg -> Clear All
+
+### Modificar seeds 🔭
+Podemos añadir o eliminar seeds manteniendo las anteriores. Lo ideal es ir añadiendo semillas poco a poco e ir probando qué configuración es la mejor.
+
+- LimeSeg -> Clear All
+- Roi Manager -> Add/Delete Seeds
+- LimeSeg -> Sphere Seg
 
 ### Exportar resultados
 
-### Modificar seeds
+LimeSeg nos permite guardar las células que hemos segmentado en formato ply, donde habrá una carpeta por cada célula.
+
+- LimeSeg -> Show GUI
+- Write To : Seleccionar Carpeta
+
+** Se Sobreescribe lo anterior**
+- Save State To XMLPLY
+
