@@ -25,7 +25,7 @@ En este caso no guardamos las semillas.
 - Roi Manager → Delete
 - Plugins → Limeseg → Clear All
 
-### Modificar seeds 🔭
+### Modificar seeds 🌟
 Podemos añadir o eliminar seeds manteniendo las anteriores. Lo ideal es ir añadiendo semillas poco a poco e ir probando qué configuración es la mejor.
 
 - LimeSeg → Clear All
@@ -39,4 +39,11 @@ LimeSeg nos permite guardar las células que hemos segmentado en formato ply, do
 - LimeSeg → Show GUI
 - Write To : Seleccionar Carpeta    
 - Save State To XMLPLY
+
+## Params
+
+## Windows
+
+### Ventana de resultados
+Al ejecutar Sphere Seg, si una célula tiene **Number of Surefels = 0** y **Centers = NaN** debemos poner de nuevo la semilla. El error puede solventarse haciendo la elipse más grande. 
 
