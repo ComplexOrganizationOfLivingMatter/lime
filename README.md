@@ -42,8 +42,22 @@ LimeSeg nos permite guardar las células que hemos segmentado en formato ply, do
 
 ## Params
 
+### Egg Chambers
+
 ## Windows
 
 ### Ventana de resultados
-Al ejecutar Sphere Seg, si una célula tiene **Number of Surefels = 0** y **Centers = NaN** debemos poner de nuevo la semilla. El error puede solventarse haciendo la elipse más grande. 
+Al ejecutar Sphere Seg, si una célula tiene **Number of Surefels = 0** y **Centers = NaN** debemos poner de nuevo la semilla. El error puede solventarse haciendo la elipse más grande.
+
+## Using Ply
+
+### Overview
+
+Como LimeSeg va a exportar cada célula que segmentemos por separado, en caso de que tengamos problema con una o varias células de la imagen podemos actuar de la siguiente manera:
+- Segmentar el conjunto completo de la forma con menos errores posible.
+- Anotar qué células no se han segmentado correctamente.
+- Hacer una nueva segmentación de esas células por separado con los parámetros específicos para ellas.
+- Exportar los resultados y sustituirlos en el conjunto de células bien segmentadas que hemos obtenido en el primer paso.
+
+### On Matlab 
 
