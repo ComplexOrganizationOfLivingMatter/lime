@@ -12,8 +12,11 @@ Overview and use of LimeSeg
 
 ### Reutilizar seeds pero mantener la misma configuración
 Si las semillas están bien elegidas pero necesitamos modificar los parámetros de segmentación.
+
 - Plugins -> LimeSeg -> ClearAll
+
 Y procedemos a segmentar de nuevo
+
 - Plugins -> LimeSeg -> Sphere Seg
 
 ### Nueva segmentación
