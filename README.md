@@ -22,8 +22,8 @@ Y procedemos a segmentar de nuevo
 ### Nueva segmentación completa
 
 En este caso no guardamos las semillas.
-- Roi Manager -> Delete
--Plugins → Limeseg → Clear All
+- Roi Manager → Delete
+- Plugins → Limeseg → Clear All
 
 ### Modificar seeds 🔭
 Podemos añadir o eliminar seeds manteniendo las anteriores. Lo ideal es ir añadiendo semillas poco a poco e ir probando qué configuración es la mejor.
