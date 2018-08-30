@@ -60,5 +60,5 @@ Como LimeSeg va a exportar cada célula que segmentemos por separado, en caso de
 - Exportar los resultados y sustituirlos en el conjunto de células bien segmentadas que hemos obtenido en el primer paso.
 
 ### On Matlab 
-Documentation <a href="https://es.mathworks.com/help/vision/ref/pcread.html" target="_blank">here</a>.
+Documentation <a href="https://es.mathworks.com/help/vision/ref/pcread.html" target="blank">here</a>.
 
