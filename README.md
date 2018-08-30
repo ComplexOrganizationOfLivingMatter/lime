@@ -17,7 +17,7 @@ Si las semillas están bien elegidas pero necesitamos modificar los parámetros 
 
 Y procedemos a segmentar de nuevo
 
-- Plugins -> LimeSeg -> Sphere Seg
+- Plugins → LimeSeg → Sphere Seg
 
 ### Nueva segmentación completa
 
@@ -37,8 +37,6 @@ Podemos añadir o eliminar seeds manteniendo las anteriores. Lo ideal es ir aña
 LimeSeg nos permite guardar las células que hemos segmentado en formato ply, donde habrá una carpeta por cada célula.
 
 - LimeSeg -> Show GUI
-- Write To : Seleccionar Carpeta
-
-** Se Sobreescribe lo anterior**
+- Write To : Seleccionar Carpeta    ** Se obreescribe lo anterior**
 - Save State To XMLPLY
 
