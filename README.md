@@ -42,6 +42,8 @@ LimeSeg nos permite guardar las células que hemos segmentado en formato ply, do
 
 ## Params
 
+- Z scale: is the physical ratio of the spacing between slices (Z spacing) and between pixels (X or Y spacing). So, if the pixel, either width or height, is (e.g) 0.6 and the voxel depth is (e.g) 2.5, you'd have to divide 2.5/0.6 ~= 4.
+
 ### Egg Chambers
 
 ## Windows
